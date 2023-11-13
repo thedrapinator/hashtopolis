@@ -23,3 +23,4 @@ pip3 install requests psutil
 python3 hashtopolis.zip
 
 #Enter URL to API and the Vocher from the agents tab. The agent automatically starts and is ready to go
+#Can automate this with flags!!! - https://github.com/hashtopolis/agent-python
