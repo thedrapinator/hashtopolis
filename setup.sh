@@ -19,7 +19,7 @@ sudo docker compose up
 sudo apt install python3-pip
 pip3 install requests psutil
 
-#Download zip from agents tab and run
+#Download zip from agents tab (http://127.0.0.1:8080/agents.php) and run
 python3 hashtopolis.zip
 
 #Enter URL to API and the Vocher from the agents tab. The agent automatically starts and is ready to go
