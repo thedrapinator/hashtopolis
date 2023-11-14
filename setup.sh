@@ -12,8 +12,9 @@ git clone https://github.com/hashtopolis/server.git
 cd server
 
 #Get config files
-wget https://raw.githubusercontent.com/hashtopolis/server/master/docker-compose.yml
-wget https://raw.githubusercontent.com/hashtopolis/server/master/env.example -O .env
+#wget https://raw.githubusercontent.com/hashtopolis/server/master/docker-compose.yml
+#wget https://raw.githubusercontent.com/hashtopolis/server/master/env.example -O .env
+cp env.example .env
 #Edit hashtopolis env file with users and passwords
 
 #need sudo??? I did at this time
