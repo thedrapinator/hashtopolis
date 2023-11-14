@@ -29,3 +29,10 @@ python3 hashtopolis.zip
 
 #Enter URL to API and the Vocher from the agents tab. The agent automatically starts and is ready to go
 #Can automate this with flags!!! - https://github.com/hashtopolis/agent-python
+
+
+#Possible SSL Solution
+#https://luiscoutinh.medium.com/how-to-fix-unsecure-connection-in-local-environment-with-docker-and-docker-compose-d58c2f89754a
+
+
+
