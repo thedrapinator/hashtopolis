@@ -1,11 +1,15 @@
 #!/bin/bash
 
 sudo apt update
-sudo apt install docker docker-compose-v2 python3-pip -y
+sudo apt install docker docker-compose-v2 python3-pip git -y
 
 #Make directory
 mkdir ~/hashtopolis
 cd ~/hashtopolis
+
+#Git it
+git clone https://github.com/hashtopolis/server.git
+cd server
 
 #Get config files
 wget https://raw.githubusercontent.com/hashtopolis/server/master/docker-compose.yml
